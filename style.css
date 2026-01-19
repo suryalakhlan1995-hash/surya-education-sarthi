@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020617; /* dark blue */
+  color: #facc15; /* gold */
+  text-align: center;
+}
+
+.header {
+  padding: 40px 20px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.login-section {
+  padding: 40px 20px;
+}
+
+.login-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.login-grid button {
+  padding: 15px;
+  font-size: 16px;
+  background: #020617;
+  color: #facc15;
+  border: 2px solid #facc15;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-grid button:hover {
+  background: #facc15;
+  color: #020617;
+}
+
+.footer {
+  padding: 20px;
+  font-size: 14px;
+  color: #94a3b8;
+}
